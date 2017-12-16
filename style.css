@@ -1,0 +1,29 @@
+.home {}
+
+nav {
+    /*メニュー*/
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    margin: 1em;
+    font-size: 1.2em;
+}
+
+nav a {
+    margin: 0.4em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #004a80;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 0em;
+}
+
+
+/*ここからcontent.html*/
+
+.content {
+    background-color: #9fff80
+}
